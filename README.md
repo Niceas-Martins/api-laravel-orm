@@ -3,7 +3,7 @@
 api-laravel-orm
 Este repositório contém uma API desenvolvida em Laravel 11 utilizando o ORM Eloquent para a persistência de dados.
 
-# 🛠️ Especificações Técnicas
+## 🛠️ Especificações Técnicas
 Linguagem: PHP 8.2+ (Requisito do Laravel 11)
 
 Framework: Laravel 11
@@ -12,7 +12,7 @@ ORM: Eloquent (Nativo do Laravel)
 
 Ferramenta de Build: Vite
 
-# 📦 Dependências Principais
+## 📦 Dependências Principais
 As dependências são gerenciadas via Composer (PHP) e NPM (Node.js):
 
 Backend (PHP/Laravel)
@@ -27,7 +27,7 @@ tailwindcss: Framework CSS.
 
 axios: Promessas HTTP para o navegador.
 
-# 🚀 Como Rodar o Projeto
+## 🚀 Como Rodar o Projeto
 Siga os passos abaixo para configurar o ambiente local:
 
 1. Configuração Inicial
@@ -74,4 +74,5 @@ Bash
 npm run dev
 
 A aplicação estará disponível em http://localhost:8000.
+
 
