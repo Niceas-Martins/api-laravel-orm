@@ -35,7 +35,7 @@ Clone o repositório e acesse a pasta api:
 
 Bash
 
-git clone <link-do-seu-repositorio>
+git clone https://github.com/Niceas-Martins/api-laravel-orm.git
 
 cd api
 
@@ -82,6 +82,7 @@ Bash
 npm run dev
 
 A aplicação estará disponível em http://localhost:8000.
+
 
 
 
