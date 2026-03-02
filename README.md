@@ -36,6 +36,7 @@ Clone o repositório e acesse a pasta api:
 Bash
 
 git clone <link-do-seu-repositorio>
+
 cd api
 
 2. Instalação de Dependências
@@ -73,6 +74,7 @@ Terminal 1 (Servidor PHP):
 Bash
 
 php artisan serve
+
 Terminal 2 (Compilação de Assets):
 
 Bash
@@ -80,6 +82,7 @@ Bash
 npm run dev
 
 A aplicação estará disponível em http://localhost:8000.
+
 
 
 
