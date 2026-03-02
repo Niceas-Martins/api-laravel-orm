@@ -37,6 +37,7 @@ Bash
 
 git clone <link-do-seu-repositorio>
 cd api
+
 2. Instalação de Dependências
 Instale os pacotes do PHP e do JavaScript:
 
@@ -44,6 +45,7 @@ Bash
 
 composer install
 npm install
+
 3. Configuração do Ambiente
 Crie o arquivo .env a partir do exemplo e gere a chave da aplicação:
 
@@ -51,6 +53,7 @@ Bash
 
 cp .env.example .env
 php artisan key:generate
+
 Nota: No seu arquivo .env, configure as credenciais do seu banco de dados (Host, Porta, Usuário e Senha).
 
 4. Banco de Dados e ORM
@@ -59,6 +62,7 @@ Execute as migrations para que o Eloquent crie as tabelas automaticamente:
 Bash
 
 php artisan migrate
+
 5. Execução
 Para rodar o projeto, você precisará de dois terminais ativos:
 
@@ -74,5 +78,6 @@ Bash
 npm run dev
 
 A aplicação estará disponível em http://localhost:8000.
+
 
 
